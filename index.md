@@ -2,10 +2,11 @@ Problem : Open connection faied: Unable to open tcp connection with host 'localh
 exit status 1
 
 Solution :
-	to connect with database server using sql server, 
+	To connect with database server using sql server : 
 		1.TCP/IP protocol should have to be enabled.
 		2.sql server browser must be running.
 		3.need to define tcp port(1433 deafult port for sql server)
+		
 	1.To enable TCP/IP protocol from "Sql server configuration manager"
 		--goto "Sql server network configuration"
 		--goto Protocols for "Server Name"
